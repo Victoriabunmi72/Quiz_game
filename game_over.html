@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="game_over.css">
+</head>
+<body>
+    <div class="game-over-container">
+        <h1>Game Over!</h1>
+        <p>Unfortunately, you didn't win the million. Better luck next time.</p>
+        <div class="button-container">
+            <button onclick="tryAgain()">Try Again</button>
+            <button onclick="quitGame()">Quit</button>
+        </div>
+        <p>Have a nice day!</p>
+    </div>
+
+    <script> 
+    function tryAgain() {
+        window.location = "index.html"
+    
+    }
+    function quitGame() {
+        window.location = "home.html"
+    }
+    </script>
+</body>
+</html>

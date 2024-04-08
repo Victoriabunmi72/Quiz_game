@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millionaire Game - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="homepage-container">
+        <h1>Welcome to the Millionaire Game!</h1>
+        <p class="long-text">
+            <b>"Who Wants to Be a Millionaire" is known for its mix of general knowledge questions,</b>
+        </br>
+            <b>strategic decision-making, and the potential for life-changing winnings,</b>
+        </br>
+            <b>making it a popular and enduring game show format worldwide.</b>
+        </p>
+
+        <div class="rules-container">
+            <h2>Rules and Regulations</h2>
+            <ul>
+                <li>This Millionaire game consists of 12 questions.</li>
+                <li>Click the "Start Game" button to begin. You will be taken to the game page automatically.</li>
+                <li>Answer questions correctly to progress and earn money. Your earnings will be displayed on the left side of the screen.</li>
+                <li>If you answer a question incorrectly, the game will end, and you'll be directed to another page where you can choose to restart or quit.</li>
+                <li>You can choose to walk away at any time by clicking the walking image on the game page. You will keep the money you have earned so far.</li>
+            </ul>
+        </div>
+        <button id="start-game-btn">Start Game</button>
+    </div>
+    <script>
+        document.getElementById("start-game-btn").onclick = function() {
+            window.location = "index.html"
+        }  </script>
+</body>
+</html>
